@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #4e47ff;
+  --text-color: #252432;
 }
 * {
   margin: 0%;
@@ -28,7 +29,7 @@ nav ul {
   align-items: center;
   gap: 800px;
   list-style: none;
-  padding: 50px 100px;
+  padding: 50px 0;
 }
 
 .logo {
@@ -50,5 +51,37 @@ nav ul {
   font-family: "Raleway", sans-serif;
   font-size: 60px;
   text-align: center;
+  color: var(--text-color);
+}
+
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
+    padding: 100px 100px ;
+}
+
+.action-texts h3 {
+    font-size: 40px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+.action-texts p {
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 25px;
+    opacity: 0.5;
+}
+.action img {
+    flex: 1;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
 }
 
