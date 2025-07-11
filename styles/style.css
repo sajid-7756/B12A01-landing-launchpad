@@ -15,6 +15,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background: #f5f8ff;
 }
 
 header {
@@ -83,7 +84,7 @@ nav ul {
 
 .productive-section {
   background-color: rgba(78, 71, 255, 0.1);
-  margin:0 228px;
+  margin: 0 228px;
   margin-bottom: 100px;
   padding: 30px 0;
   text-align: center;
@@ -120,5 +121,87 @@ nav ul {
   color: var(--text-color);
   opacity: 0.6;
   font-weight: 500;
+}
+
+.testimonials {
+  padding: 80px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.testimonial-card {
+  border: 1px solid #ffb70041;
+  border-radius: 12px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.04);
+}
+
+.star-rating {
+  margin-bottom: 15px;
+}
+
+.star-rating img {
+  margin: 0 2px;
+}
+
+.testimonial-title {
+  font-size: 25px;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.testimonial-span-text {
+  font-style: normal;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 4px;
+  opacity: 0.7;
+}
+
+.review-date {
+  color: var(--text-color);
+  font-size: 14px;
+  opacity: 0.5;
 }
 
